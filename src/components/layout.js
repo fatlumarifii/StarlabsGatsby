@@ -3,6 +3,7 @@ import Navigation from "./navigation"
 import Header from "./header"
 import "bootstrap/dist/css/bootstrap.css"
 import "./template.css"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
   const [scroll, setScroll] = useState(0)
@@ -17,6 +18,7 @@ const Layout = ({ children }) => {
       <Header />
       <Navigation scroll={scroll} />
       {children}
+      <Footer />
     </div>
   )
 }
