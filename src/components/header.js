@@ -4,6 +4,11 @@ import Slider1 from "../images/slider/img_1.jpg"
 import Slider2 from "../images/slider/img_2.jpg"
 import Slider3 from "../images/slider/img_3.jpg"
 import Carousel from "react-bootstrap/Carousel"
+import { FaFacebook } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
+import { FaRss } from 'react-icons/fa';
+import { FaDribbble } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
 
 const Header = () => {
   return (
@@ -14,7 +19,7 @@ const Header = () => {
             <div className="hidden-xs hidden-sm col-md-6">
               <div className="mailme">
                 <a href="mailto:info@company.com">
-                  <i className="fa fa-envelope"></i>info@company.com
+                info@company.com
                 </a>
               </div>
             </div>
@@ -23,27 +28,27 @@ const Header = () => {
                 <ul>
                   <li>
                     <Link to="">
-                      <i className="fa fa-twitter soc"></i>
+                    <FaTwitter/>
                     </Link>
                   </li>
                   <li>
                     <Link to="">
-                      <i className="fa fa-facebook soc"></i>
+                     <i className="fa"><FaFacebook/></i>
                     </Link>
                   </li>
                   <li>
                     <Link to="">
-                      <i className="fa fa-rss soc"></i>
+                     <FaRss/>
                     </Link>
                   </li>
                   <li>
                     <Link to="">
-                      <i className="fa fa-dribbble soc"></i>
+                      <FaDribbble/>
                     </Link>
                   </li>
                   <li>
                     <Link to="">
-                      <i className="fa fa-instagram soc"></i>
+                      <FaInstagram/>
                     </Link>
                   </li>
                 </ul>

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "123",
+    "name": "Morgan",
+    "image": "../images/team/member1.jpg",
+    "prof": "Designer"
+  },
+  {
+    "id": "1234",
+    "name": "Ted",
+    "image": "images/team/member2.jpg",
+    "prof": "Developer"
+  },
+  {
+    "id": "12346",
+    "name": "Ted 2",
+    "image": "images/team/member3.jpg",
+    "prof": "Manager"
+  },
+  {
+    "id": "123466",
+    "name": "Ted 3",
+    "image": "images/team/member4.jpg",
+    "prof": "Owner"
+  },
+  {
+    "id": "123466",
+    "name": "Ted 4",
+    "image": "../images/team/member5.jpg",
+    "prof": "Manager"
+  }
+]

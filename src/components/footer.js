@@ -1,11 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 import image1 from "../images/feed/image1.jpg"
-import image2 from "../images/feed/image2.jpg"
-import image3 from "../images/feed/image4.jpg"
-import image4 from "../images/feed/image4.jpg"
-import image5 from "../images/feed/image5.jpg"
-import image6 from "../images/feed/image6.jpg"
 
 const Footer = () => {
   return (

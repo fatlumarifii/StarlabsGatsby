@@ -1,0 +1,352 @@
+[
+  {
+    "_id": "5eafe31b7df44079fa4b3d2c",
+    "balance": "$1,557.40",
+    "picture": "http://placehold.it/32x32",
+    "age": 39,
+    "name": "Kristen Brewer",
+    "gender": "female",
+    "company": "SPHERIX",
+    "email": "kristenbrewer@spherix.com",
+    "phone": "+1 (961) 513-3027",
+    "address": "231 Vandervoort Place, Jenkinsville, Texas, 7779",
+    "tags": [
+      "commodo",
+      "amet",
+      "laborum",
+      "ea",
+      "consectetur",
+      "sint",
+      "labore"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Estelle Thompson"
+      },
+      {
+        "id": 1,
+        "name": "Florence Wade"
+      },
+      {
+        "id": 2,
+        "name": "Marjorie Oneill"
+      }
+    ]
+  },
+  {
+    "_id": "5eafe31ba5a3ba8eadf2d8ec",
+    "balance": "$3,587.03",
+    "picture": "http://placehold.it/32x32",
+    "age": 20,
+    "name": "Roxie Fischer",
+    "gender": "female",
+    "company": "KEENGEN",
+    "email": "roxiefischer@keengen.com",
+    "phone": "+1 (942) 533-2349",
+    "address": "986 Gardner Avenue, Mapletown, Massachusetts, 866",
+    "tags": [
+      "veniam",
+      "cupidatat",
+      "quis",
+      "et",
+      "sint",
+      "labore",
+      "minim"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Maddox Campbell"
+      },
+      {
+        "id": 1,
+        "name": "Rosalind Mendoza"
+      },
+      {
+        "id": 2,
+        "name": "Janis Blackwell"
+      }
+    ]
+  },
+  {
+    "_id": "5eafe31b3d4887aee6de0fbc",
+    "balance": "$1,994.92",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "name": "Dee Hodges",
+    "gender": "female",
+    "company": "QUANTALIA",
+    "email": "deehodges@quantalia.com",
+    "phone": "+1 (835) 479-3547",
+    "address": "401 Centre Street, Tilden, Alaska, 7341",
+    "tags": [
+      "duis",
+      "excepteur",
+      "aliquip",
+      "nulla",
+      "voluptate",
+      "do",
+      "nisi"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Herman Wall"
+      },
+      {
+        "id": 1,
+        "name": "Carlson Vargas"
+      },
+      {
+        "id": 2,
+        "name": "Cantrell May"
+      }
+    ]
+  },
+  {
+    "_id": "5eafe31bb36bc815c9d4ac6f",
+    "balance": "$2,948.43",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "name": "Hale Petty",
+    "gender": "male",
+    "company": "ZENTRY",
+    "email": "halepetty@zentry.com",
+    "phone": "+1 (906) 436-2553",
+    "address": "711 Dewitt Avenue, Rosedale, Virgin Islands, 840",
+    "tags": [
+      "enim",
+      "non",
+      "esse",
+      "reprehenderit",
+      "cillum",
+      "veniam",
+      "occaecat"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Etta Farmer"
+      },
+      {
+        "id": 1,
+        "name": "Keith Ballard"
+      },
+      {
+        "id": 2,
+        "name": "Summer Wagner"
+      }
+    ]
+  },
+  {
+    "_id": "5eafe31b563755af511442e5",
+    "balance": "$1,442.81",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "name": "Davidson Lamb",
+    "gender": "male",
+    "company": "CENTURIA",
+    "email": "davidsonlamb@centuria.com",
+    "phone": "+1 (924) 539-2331",
+    "address": "400 Menahan Street, Macdona, Wisconsin, 6089",
+    "tags": [
+      "irure",
+      "magna",
+      "commodo",
+      "ipsum",
+      "occaecat",
+      "laboris",
+      "fugiat"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Paige Fleming"
+      },
+      {
+        "id": 1,
+        "name": "Mejia Maldonado"
+      },
+      {
+        "id": 2,
+        "name": "Mai Hayden"
+      }
+    ]
+  },
+  {
+    "_id": "5eafe31bb22415f78d3c9fde",
+    "balance": "$1,009.96",
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "name": "Fry Lopez",
+    "gender": "male",
+    "company": "EXOVENT",
+    "email": "frylopez@exovent.com",
+    "phone": "+1 (842) 461-3920",
+    "address": "856 Reed Street, Sutton, Vermont, 2103",
+    "tags": [
+      "esse",
+      "exercitation",
+      "laborum",
+      "ex",
+      "occaecat",
+      "deserunt",
+      "in"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Brennan Lowe"
+      },
+      {
+        "id": 1,
+        "name": "Ruthie Hogan"
+      },
+      {
+        "id": 2,
+        "name": "Phoebe Burton"
+      }
+    ]
+  },
+  {
+    "_id": "5eafe31be447d88032c7465f",
+    "balance": "$1,865.02",
+    "picture": "http://placehold.it/32x32",
+    "age": 28,
+    "name": "Morrison Cobb",
+    "gender": "male",
+    "company": "COMTOUR",
+    "email": "morrisoncobb@comtour.com",
+    "phone": "+1 (957) 413-3002",
+    "address": "951 Bradford Street, Comptche, Kansas, 6258",
+    "tags": [
+      "nulla",
+      "in",
+      "esse",
+      "sunt",
+      "ipsum",
+      "voluptate",
+      "velit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Payne Armstrong"
+      },
+      {
+        "id": 1,
+        "name": "Raquel Morin"
+      },
+      {
+        "id": 2,
+        "name": "Kramer Gould"
+      }
+    ]
+  },
+  {
+    "_id": "5eafe31bba46f76cc5da4366",
+    "balance": "$2,554.72",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "name": "Randi Schwartz",
+    "gender": "female",
+    "company": "ISOLOGIA",
+    "email": "randischwartz@isologia.com",
+    "phone": "+1 (949) 540-3567",
+    "address": "868 Durland Place, Sunriver, Iowa, 2531",
+    "tags": [
+      "proident",
+      "do",
+      "reprehenderit",
+      "adipisicing",
+      "qui",
+      "cupidatat",
+      "adipisicing"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Alyssa Melton"
+      },
+      {
+        "id": 1,
+        "name": "Katrina Long"
+      },
+      {
+        "id": 2,
+        "name": "Addie Ingram"
+      }
+    ]
+  },
+  {
+    "_id": "5eafe31bce48269347139ec1",
+    "balance": "$1,588.96",
+    "picture": "http://placehold.it/32x32",
+    "age": 38,
+    "name": "Brandi Weeks",
+    "gender": "female",
+    "company": "ISOLOGICS",
+    "email": "brandiweeks@isologics.com",
+    "phone": "+1 (997) 427-3692",
+    "address": "749 Hooper Street, Vandiver, Delaware, 1429",
+    "tags": [
+      "deserunt",
+      "ipsum",
+      "laboris",
+      "dolor",
+      "deserunt",
+      "officia",
+      "laboris"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Mcintyre Carey"
+      },
+      {
+        "id": 1,
+        "name": "Kirsten Hanson"
+      },
+      {
+        "id": 2,
+        "name": "Pena Ellis"
+      }
+    ]
+  },
+  {
+    "_id": "5eafe31b72916bdf32a5ebb5",
+    "balance": "$3,587.43",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "name": "Audrey Kerr",
+    "gender": "female",
+    "company": "MANGELICA",
+    "email": "audreykerr@mangelica.com",
+    "phone": "+1 (990) 507-3213",
+    "address": "774 Beaver Street, Thynedale, West Virginia, 6867",
+    "tags": [
+      "consectetur",
+      "est",
+      "veniam",
+      "labore",
+      "irure",
+      "qui",
+      "veniam"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Lindsey Becker"
+      },
+      {
+        "id": 1,
+        "name": "Berry Rowe"
+      },
+      {
+        "id": 2,
+        "name": "Lula Osborn"
+      }
+    ]
+  }
+]

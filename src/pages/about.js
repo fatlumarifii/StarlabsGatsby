@@ -9,8 +9,11 @@ import image2 from "../images/team/member2.jpg"
 import image3 from "../images/team/member3.jpg"
 import image4 from "../images/team/member4.jpg"
 import image5 from "../images/team/member5.jpg"
+import localApi from "../api/localApi"
+import JSONData from "../content/about.json"
 
 export default () => {
+  console.log(localApi.get)
   return (
     <Layout>
       <div id="templatemo_about" className="section3">
@@ -59,11 +62,16 @@ export default () => {
               />
               <div className="teamInfo">
                 <ul>
-                  <AboutCard image={image1} name={"Angel"} prof={"Designer"} />
-                  <AboutCard image={image2} name={"Mary"} prof={"Developer"} />
-                  <AboutCard image={image3} name={"Nancy"} prof={"Manager"} />
-                  <AboutCard image={image4} name={"Linda"} prof={"Director"} />
-                  <AboutCard image={image5} name={"Helen"} prof={"Owner"} />
+                  {JSONData.map((data, index) => {
+                    return (
+                      <AboutCard
+                        image={data.image}
+                        name={data.name}
+                        prof={data.prof}
+                        key={`content_item_${index}`}
+                      />
+                    )
+                  })}
                 </ul>
               </div>
               <InfoText

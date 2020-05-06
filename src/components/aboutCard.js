@@ -3,7 +3,7 @@ import React from "react"
 const AboutCard = props => {
   return (
     <li>
-      <div className="teamBox">
+      <div className="teamBox" key={props.key}>
         <div className="imgWrp">
           <img className="img-responsive" alt="Angel" src={props.image} />
         </div>

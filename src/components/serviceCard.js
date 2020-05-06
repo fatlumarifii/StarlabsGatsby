@@ -1,12 +1,13 @@
 import React from "react"
 import Buttoni from "./button"
+import {Link} from 'gatsby'
 
 const ServiceCard = props => {
   return (
     <div className="col-xs-6 col-sm-6 col-md-3">
       <div className="blok text-center">
         <div className="hexagon-a">
-          <a className="hlinktop" href="#">
+          <Link className="hlinktop" to="#">
             <div className="hexa-a">
               <div className="hcontainer-a">
                 <div className="vertical-align-a">
@@ -16,10 +17,10 @@ const ServiceCard = props => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className="hexagon">
-          <a className="hlinkbott" href="#">
+          <Link className="hlinkbott" to="#">
             <div className="hexa">
               <div className="hcontainer">
                 <div className="vertical-align">
@@ -27,7 +28,7 @@ const ServiceCard = props => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <h4>{props.title}</h4>
         <p>

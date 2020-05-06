@@ -1,10 +1,11 @@
 import React from "react"
 import Buttoni from "./button"
+import {Link} from 'gatsby'
 const PortfolioCard = props => {
   return (
     <div className="col-xs-6 col-sm-3 col-md-3 dbox prod-cnt graphic">
       <div className="itemCont">
-        <a href="#">
+        <Link href="#">
           <div className="thumb">
             <img
               className="img-responsive center-block"
@@ -17,7 +18,7 @@ const PortfolioCard = props => {
             <h6>{props.type}</h6>
             <p>{props.text}</p>
           </div>
-        </a>
+        </Link>
         <Buttoni text={"view"} classNames={"btn btn-primary goto"} />
       </div>
     </div>
