@@ -1,6 +1,7 @@
 import React from "react"
 import Buttoni from "./button"
-import {Link} from 'gatsby'
+import { Link } from "gatsby"
+
 const PortfolioCard = props => {
   return (
     <div className="col-xs-6 col-sm-3 col-md-3 dbox prod-cnt graphic">

@@ -4,16 +4,9 @@ import Title from "../components/title"
 import InfoText from "../components/infoText"
 import Knob from "../components/knob"
 import AboutCard from "../components/aboutCard"
-import image1 from "../images/team/member1.jpg"
-import image2 from "../images/team/member2.jpg"
-import image3 from "../images/team/member3.jpg"
-import image4 from "../images/team/member4.jpg"
-import image5 from "../images/team/member5.jpg"
-import localApi from "../api/localApi"
 import JSONData from "../content/about.json"
 
 export default () => {
-  console.log(localApi.get)
   return (
     <Layout>
       <div id="templatemo_about" className="section3">

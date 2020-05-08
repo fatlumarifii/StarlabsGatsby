@@ -1,19 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import Layout from "../components/layout"
 import Title from "../components/title"
-import SubMenu from "../components/subMenu"
 import PortfolioCard from "../components/portfolioCard"
-import image1 from "../images/grids/img1.jpg"
-import image2 from "../images/grids/img2.jpg"
-import image3 from "../images/grids/img3.jpg"
-import image4 from "../images/grids/img4.jpg"
-import image5 from "../images/grids/img5.jpg"
-import image6 from "../images/grids/img6.jpg"
-import image7 from "../images/grids/img7.jpg"
-import image8 from "../images/grids/img8.jpg"
-import Buttoni from "../components/button"
+import products from "../content/products.json"
 
 export default () => {
+  const [itemType, setItemType] = useState("all")
   return (
     <Layout>
       <div id="templatemo_portfolio" className="section2">
@@ -38,59 +30,60 @@ export default () => {
                     </li>
                   </ul>
                 </div>
-                <SubMenu
-                  menuItem={[
-                    "All",
-                    "Web Design",
-                    "Graphic",
-                    "Inspiration",
-                    "Creative",
-                  ]}
-                />
+                <div className="menuSwitch">
+                  <ul>
+                    <li
+                      category="prod-cnt"
+                      onClick={() => setItemType("all")}
+                      className={itemType === "all" ? "cat-active" : ""}
+                    >
+                      All
+                    </li>
+                    <li
+                      category="webdesign"
+                      onClick={() => setItemType("Webdesign")}
+                      className={itemType === "Webdesign" ? "cat-active" : ""}
+                    >
+                      Webdesign
+                    </li>
+                    <li
+                      category="graphic"
+                      onClick={() => setItemType("Graphic")}
+                      className={itemType === "Graphic" ? "cat-active" : ""}
+                    >
+                      Graphic
+                    </li>
+                    <li
+                      category="inspiration"
+                      onClick={() => setItemType("Inspiration")}
+                      className={itemType === "Inspiration" ? "cat-active" : ""}
+                    >
+                      Inspiration
+                    </li>
+                    <li
+                      category="creative"
+                      onClick={() => setItemType("Creative")}
+                      className={itemType === "Creative" ? "cat-active" : ""}
+                    >
+                      Creative
+                    </li>
+                  </ul>
+                </div>
                 <div className="imgSwitch">
                   <div className="row">
-                    <PortfolioCard
-                      image={image1}
-                      title={"The Blue Gate"}
-                      type={"Graphics"}
-                    />
-                    <PortfolioCard
-                      image={image2}
-                      title={"The Blue Gate"}
-                      type={"Graphics"}
-                    />
-                    <PortfolioCard
-                      image={image3}
-                      title={"The Blue Gate"}
-                      type={"Graphics"}
-                    />
-                    <PortfolioCard
-                      image={image4}
-                      title={"The Blue Gate"}
-                      type={"Graphics"}
-                    />
-                    <PortfolioCard
-                      image={image5}
-                      title={"The Blue Gate"}
-                      type={"Graphics"}
-                    />
-                    <PortfolioCard
-                      image={image6}
-                      title={"The Blue Gate"}
-                      type={"Graphics"}
-                    />
-                    <PortfolioCard
-                      image={image7}
-                      title={"The Blue Gate"}
-                      type={"Graphics"}
-                    />
-                    <PortfolioCard
-                      image={image8}
-                      title={"The Blue Gate"}
-                      type={"Graphics"}
-                    />
+                    {products.map((item, key) => {
+                      return itemType === "all" || item.type === itemType ? (
+                        <PortfolioCard
+                          key={key}
+                          image={item.image}
+                          title={item.title}
+                          type={item.type}
+                        />
+                      ) : (
+                        <></>
+                      )
+                    })}
                   </div>
-                  <Buttoni text={"Load More"} classNames={"btn btn-primary"} />
                 </div>
               </div>
             </div>
